@@ -1,0 +1,327 @@
+
+.login{
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    height: 800px;
+ 
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border-radius: 28px;
+    opacity: 1;
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.logo1{
+    top: 44px;
+    left: 300px;
+    width: 40px;
+    height: 40px;
+    background: url('./images/logo1.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    position: -webkit-sticky;
+        position: sticky;
+}
+
+.logo2{
+    top: 89px;
+    left: 210px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: #5E5E5EB5 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #FFFEFE00;
+    opacity: 1;
+    filter: blur(2px);
+    position: -webkit-sticky;
+        position: sticky;
+}
+
+.text2{
+    top: 95px;
+    left: 222px;
+    width: 15px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/25px Source Sans Pro;
+    letter-spacing: 0.02px;
+    color: #36A546;
+    opacity: 1;
+    position: -webkit-sticky;
+        position: sticky;
+}
+
+.mop{
+    top: 104px;
+    left: 150px;
+    width: 71px;
+    height: 70px;
+
+    background: transparent url('images/mop.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    position: -webkit-sticky;
+        position: sticky;
+}
+
+.rect{
+    top: 739px;
+    left: 0px;
+    width: 360px;
+    height: 63px;
+    /* UI Properties */
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 8px 4px 4px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #0F2323;
+    opacity: 1;
+    position: -webkit-sticky;
+    position: fixed;
+    border-radius: 2em;
+}
+
+
+.profilebtn{
+    top: 0px;
+    left: 180px;
+    width: 180px;
+    height: 61px;
+    background: #38383880 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    filter: blur(7px);
+    border-radius: 2em;
+    position: absolute;
+}
+
+.homeicon{
+    top: 18px;
+    left: 90px;
+    width: 28px;
+    height: 28px;
+    /* UI Properties */
+    background: url('images/home.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    position: fixed;
+}
+
+.profileicon{
+    top: 18px;
+    left: 250px;
+    width: 28px;
+    height: 28px;
+    /* UI Properties */
+    background: transparent url('images/user.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    position: fixed;
+}
+
+
+.searchbar{
+    color: white;
+    top: 191px;
+    left: 30px;
+    width: 298px;
+    height: 55px;
+    /* UI Properties */
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #595959;
+    opacity: 1;
+    position: absolute;
+    
+    border-radius: 2em;
+}
+
+/* .roko{
+    position: absolute;
+    height: 250px;
+    width: 360px;
+    border-radius: 2em;
+} */
+
+.namesearch{
+    top: 193px;
+    left: 100px;
+    width: 156px;
+    height: 20px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 16px/21px Mulish;
+    letter-spacing: 0.02px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+.magglass{
+    top: 206px;
+    left: 280px;
+    width: 25px;
+    height: 25px;
+    /* UI Properties */
+    background: transparent url('images/magglass.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.empcard1{
+    width: 270px;
+    height: 200px;
+    left: -1px;
+    top: 10px;
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #595959;
+    position: relative;
+    border-radius: 1.5em;
+}
+
+.e1{
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    font: normal normal 13px/18px Mulish;
+    letter-spacing: 0.02px;
+    word-spacing: 5px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+.number1{
+    top: -13px;
+    left: 80px;
+    text-align: left;
+    font: normal normal bold 13px/18px Mulish;
+    letter-spacing: 0.02px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.n1{
+    top: 60px;
+    left: 20px;
+    text-align: left;
+    font: normal normal 13px/18px Mulish;
+    letter-spacing: 0.02px;
+    word-spacing: 18px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+.name1{
+    top: -13px;
+    left: 80px;
+    text-align: left;
+    font: normal normal bold 13px/18px Mulish;
+    letter-spacing: 0.02px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+.d1{
+    top: 100px;
+    left: 20px;
+    text-align: left;
+    font: normal normal 13px/18px Mulish;
+    letter-spacing: 0.02px;
+    word-spacing: 25px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+.dob1{
+    top: -13px;
+    left: 80px;
+    width: 200px;
+    text-align: left;
+    font: normal normal bold 13px/18px Mulish;
+    color: #F28C28;
+    opacity: 1;
+    position: absolute;
+}
+
+.r1{
+    top: 140px;
+    left: 20px;
+    text-align: left;
+    font: normal normal 13px/18px Mulish;
+    letter-spacing: 0.02px;
+    word-spacing: 27px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    position: absolute;
+}
+
+.role1{
+    top: -13px;
+    left: 80px;
+    width: 200px;
+    text-align: left;
+    font: normal normal bold 14px/18px Mulish;
+    word-spacing: normal;
+    color: #36A54680;
+    opacity: 1;
+    position: absolute;
+}
+
+.num1{
+    font-size: small;
+    color: white;
+    background-color: #5E5E5E82;
+    top: 10px;
+    left: 230px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 2em;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.profileb{
+    top: 2px;
+    left: -2px;
+    width: 180px;
+    height: 61px;
+    background: transparent;
+    opacity: 1;
+    border-radius: 2em;
+    position: absolute;
+}
+
+
+.aadmi{
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-around;
+    height: 420px;
+    width: 360px;
+    position: absolute;
+    top: 270px;
+    overflow-y:auto;
+}
+
+.aadmi::-webkit-scrollbar {
+    display: none;
+}
